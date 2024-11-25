@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="girlfriend_app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Title Section -->
+    <div class="title-section">
+      <h1>Welcome to our Love App Sam ❤️</h1>
+      <p>A special app just for you! I didn't know what to get you for xmas but I know how to code. Tap the buttons below to explore random images, poems, comments, and my christmas love letter. Enjoy the surprise! XOXO 🌹
+    </p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Buttons Section -->
+      <div class="buttons-section">
+        <button onclick="showRandomImage()">🎨 Show Random Image</button>
+        <button onclick="showRandomPoem()">📜 Show Random Poem</button>
+        <button onclick="showRandomComment()">💬 Show Random Comment</button>
+        <button onclick="showLetter()">✉️ Show Love Letter</button>
+        <button onclick="runFlowerAnimation()">🌸 Show Flower Animation</button>
+        <button onclick="showRandomCatPicture()">🐾 Show Willie Picture</button>
+        <button onclick="startLoveStory()">💖 Show Love Story</button>
+      </div>
+
+      <!-- Image Section -->
+      <div class="image-section">
+        <div id="imageBox">
+          <img id="profile" src="assets/us.png" alt="Us" class="profile-picture">
+        </div>
+      </div>
+    </div>
+    <div class="close-app">
+        <button onclick="closeApp()">❌ Close App</button>
+    </div>
+
+  <!-- Popup Modal -->
+  <div id="popupModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <div id="popupContent"></div>
+    </div>
+  </div>
+</body>
+</html>
