@@ -20,8 +20,8 @@
     <div class="main-content">
       <!-- Buttons Section -->
       <div class="buttons-section">
+        <button onclick="showRandomImage()">🎨 Change Picture of Us</button>
         <button onclick="showLetter()">✉️ Show Love Letter</button>
-        <button onclick="showRandomImage()">🎨 Random Pictures of Us</button>
         <button onclick="showRandomComment()">💬 Random Love Comments</button>
         <button onclick="showRandomPoem()">📜 Random Love Poems</button>
         <button onclick="startLoveStory()">💖 Show Our Love Story</button>
@@ -34,10 +34,12 @@
         <div id="imageBox">
           <img id="profile" src="assets/us.png" alt="Us" class="profile-picture">
         </div>
+        <!-- Our Playlist Button -->
+        <button onclick="window.open('https://open.spotify.com/playlist/7s3M896HPykvknNU91CE7M', '_blank')" class="playlist-button">🎶 Our Playlist</button>  
       </div>
     </div>
     <div class="close-app">
-        <button onclick="closeApp()">❌ Close App</button>
+        <button onclick="closeApp()">✘ Close App</button>
     </div>
 
   <!-- Popup Modal -->
@@ -47,7 +49,7 @@
     <div id="popupContent">
       <!-- Dynamic content like images, text, etc., will appear here -->
     </div>
-    <button class="close-popup-btn" onclick="closeModal()">Close</button>
+    <button class="close-popup-btn" onclick="closeModal()">✘ Close</button>
   </div>
 </div>
 </body>
