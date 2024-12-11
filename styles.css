@@ -26,7 +26,7 @@ body {
   max-width: 720px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
-  min-height: 60vh;
+  min-height: 55vh;
 }
 
 .title-section h1 {
@@ -79,7 +79,7 @@ button:active {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  width: 55%;
+  width: 58%;
 }
 
 #imageBox {
@@ -147,7 +147,7 @@ button:active {
 }
 
 #popupContent img {
-  max-width: 100%;
+  max-width: 400px;
   max-height: 480px;
   border-radius: 10px;
 }
@@ -185,7 +185,6 @@ button:active {
   color: #721f72;
   margin-top: 10px;
 }
-
 .navigation-buttons {
   display: flex;
   justify-content: center;
