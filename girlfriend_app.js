@@ -6,13 +6,13 @@ const images = [
   'assets/us/us37.jpg','assets/us/us38.jpg','assets/us/us39.jpg','assets/us/us40.jpg','assets/us/us41.jpg','assets/us/us42.jpg','assets/us/us43.jpg','assets/us/us44.jpg','assets/us/us45.jpg',
   'assets/us/us46.jpg','assets/us/us47.jpg','assets/us/us48.jpg','assets/us/us49.jpg','assets/us/us50.jpg','assets/us/us51.jpg','assets/us/us52.jpg','assets/us/us53.jpg','assets/us/us54.jpg',
   'assets/us/us55.jpg', 'assets/us/us56.jpg','assets/us/us57.jpg','assets/us/us58.jpg','assets/us/us59.jpg','assets/us/us60.jpg','assets/us/us61.jpg','assets/us/us62.jpg','assets/us/us63.jpg',
-  'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg'
+  'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.jpg', 'assets/us/us71.jpg','assets/us/us72.JPG',
+  'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.jpg',
 ];
 
 const poems = [
-  "Love is so fragile,\n It can be calm, ",
-  "Forever in my heart, you shine brighter than any star.",
-  "Every moment with you feels like a dream come true."
+  "to be written ",
+ 
 ];
 
 const comments = [
@@ -33,21 +33,32 @@ const catPictures = [
   'assets/animals/pet1.JPEG','assets/animals/pet2.JPEG','assets/animals/pet3.JPEG','assets/animals/pet4.JPEG','assets/animals/pet5.JPEG','assets/animals/pet6.JPEG',
   'assets/animals/pet7.jpg','assets/animals/pet8.jpg','assets/animals/pet9.jpg','assets/animals/pet10.jpg','assets/animals/pet11.jpg','assets/animals/pet12.jpg',
   'assets/animals/pet13.jpg','assets/animals/pet14.jpg','assets/animals/pet15.jpg','assets/animals/pet16.jpg','assets/animals/pet17.jpg','assets/animals/pet18.jpg',
-  'assets/animals/pet19.jpg','assets/animals/pet20.jpg','assets/animals/pet21.jpg','assets/animals/pet22.jpg',
+  'assets/animals/pet19.jpg','assets/animals/pet20.jpg','assets/animals/pet21.jpg','assets/animals/pet22.jpg','assets/animals/pet23.jpg','assets/animals/pet24.jpg',
+  'assets/animals/pet25.jpg','assets/animals/pet26.jpg','assets/animals/pet27.jpg','assets/animals/pet28.jpg','assets/animals/pet29.jpg','assets/animals/pet30.jpg',
+  'assets/animals/pet31.jpg','assets/animals/pet32.jpg','assets/animals/pet33.jpg','assets/animals/pet34.jpg','assets/animals/pet35.jpg','assets/animals/pet36.jpg',
+  'assets/animals/pet37.jpg','assets/animals/pet38.jpg','assets/animals/pet39.jpg','assets/animals/pet40.jpg','assets/animals/pet41.jpg','assets/animals/pet42.jpg',
+  'assets/animals/pet43.jpg','assets/animals/pet44.jpg','assets/animals/pet45.jpg','assets/animals/pet46.jpg','assets/animals/pet47.jpg','assets/animals/pet48.jpg',
+  'assets/animals/pet49.jpg','assets/animals/pet50.jpg','assets/animals/pet51.jpg','assets/animals/pet52.jpg','assets/animals/pet53.jpg','assets/animals/pet54.jpg',
+  'assets/animals/pet55.jpg','assets/animals/pet56.jpg','assets/animals/pet57.jpg','assets/animals/pet58.jpg','assets/animals/pet59.jpg','assets/animals/pet60.jpg',
+  'assets/animals/pet61.jpg','assets/animals/pet62.jpg','assets/animals/pet51.jpg','assets/animals/pet52.jpg','assets/animals/pet47.jpg','assets/animals/pet48.jpg',
 ];
 
 const loveStoryPictures = [
-  { src: 'assets/story1.jpg', caption: 'The first picture that we have together' },
-
-
-
-
-  
-  { src: 'assets/story2.jpg', caption: 'Our first adventure together – what a memory!' },
-  { src: 'assets/story3.jpg', caption: 'The day we knew we were meant to be.' }
+  { src: 'assets/Story/story1.jpg', caption: 'April: The first picture that I have of us together. I know it is a random picture, but from the beginning I always loved when you put your head on my shoulder. ♡' },
+  { src: 'assets/Story/story2.png', caption: 'April: Sigfest: Our first real party together. I remember how much fun we had. You looked so beautiful. ♡' },
+  { src: 'assets/Story/story3.jpg', caption: "May: This is when we began long distance. It tested us and while it wasn't fun it showed me how much we truly loved eachother and how locked in we were. ♡" },
+  { src: 'assets/Story/story4.jpg', caption: 'June: Still in long distance but we actually saw each other a lot this month. Whether it was you coming to visit me or meet me and my family for that polo match. Btw you looked so pretty at that. ♡' },
+  { src: 'assets/Story/story5.jpg', caption: 'June: The Trip: When you came on my family vacation to Lake George and Vermont to celebrate my bday. I had so much fun and I miss these 5 days so much. This once again showed me just how special you were. Remember how good that food in Vermont was and how we slept in a closet and a basement.  ♡' },
+  { src: 'assets/Story/story6.jpg', caption: 'July: This month was truly long distance, however we still managed to facetime everynight and see each other once in a while, making the times we saw each other just that much more special. ♡' },
+  { src: 'assets/Story/story7.jpg', caption: 'August: Another long distance month but we went to LBI with all of our friends. That trip was so much fun and I loved being able to sleep with you for multiple days at a time. ♡' },
+  { src: 'assets/Story/story8.jpg', caption: 'September: We went back to school! Now we were able to see each other everyday and spend each night in the same bed. We also went out together, went to my brothers for a weekend where we painted. This month was our introduction to being back at school with our friends and being together everyday. ♡' },
+  { src: 'assets/Story/story9.png', caption: 'October: Another month of spending everyday with you. We got to experience the Northern Lights together which was so cool an I am so happy I got to see them with you. They were not as pretty as you though. ♡' },
+  { src: 'assets/Story/story10.jpg', caption: 'October: BIRTHDAY GIRL!: October 18th we celebrated your birthday. You looked so pretty and the food was so good. I was really nervous to give you your gift but I was so happy you liked it. ♡' },
+  { src: 'assets/Story/story11.jpg', caption: "Novemeber: Honestly, not much happened in November, other than us getting closer and spending each day together, and going to your house for your brothers bday which I had a lot of fun doing. That's the best thing though, spending time with the most beautiful girl in the world. ♡" },
+  { src: 'assets/Story/story12.jpg', caption: "Decemeber: And now we are getting ready to spend our first Christmas together. We have grown so much as a couple and I am so proud of us. Each and everyday I only think we get stronger and more locked in together. I can't wait to spend this holdiay season with you and give you this gift. I think you will cry but time will only tell. I love you gorgeous, can't wait to make it to 1 year with you. ♡" },
 ];
 
-const letter = "My dearest love, you are the light of my life. Every day with you is a blessing, and I can't wait to share more memories together. ❤️";
+const letter = "To be written❤️";
 
 function openModal(content) {
   const popupContent = document.getElementById('popupContent');
@@ -103,6 +114,7 @@ function showRandomComment() {
     <div id="modal-content">
     <p>${randomComment}</p>
       <div class="navigation-buttons">
+      
         <button class="regenerate-btn" onclick="showRandomComment()">↻</button>
       </div>
     </div>
@@ -150,13 +162,15 @@ const popupContent = `
 
 function updateLoveStoryModal() {
   const storyPicture = loveStoryPictures[loveStoryIndex];
+  const prevButton = loveStoryIndex === 0 ? '' : `<button class="arrow-btn" onclick="prevLoveStory()">⇦ Previous</button>`;
+  const nextButton = loveStoryIndex === 11 ? '' : `<button class="arrow-btn" onclick="nextLoveStory()">⇨ Next</button>`;
   const popupContent = `
     <div id="storyContent">
-      <img src="${storyPicture.src}" alt="Love Story">
+    <img src="${storyPicture.src}" alt="Love Story">
       <div id="captionArea">${storyPicture.caption}</div>
       <div class="navigation-buttons">
-        <button class="arrow-btn" onclick="prevLoveStory()">⬅️ Previous</button>
-        <button class="arrow-btn" onclick="nextLoveStory()">➡️ Next</button>
+         ${prevButton}
+        ${nextButton}
       </div>
     </div>
   `;
@@ -169,10 +183,11 @@ function startLoveStory() {
 }
 
 function nextLoveStory() {
-  if (loveStoryIndex != 2){
+  if (loveStoryIndex != 11){
     loveStoryIndex = (loveStoryIndex + 1) % loveStoryPictures.length; // Loop back to the start
     updateLoveStoryModal();
   }
+  
 }
 
 function prevLoveStory() {
