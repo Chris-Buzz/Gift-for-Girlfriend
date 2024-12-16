@@ -83,21 +83,26 @@ button:active {
 }
 
 #imageBox {
-  width: 95%;
-  height: 430px;
+  width: 100%;
+  max-width: 500px;
+  height: 430px; /* Ensures a fixed height */
   background: rgba(255, 182, 193, 0.5);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .profile-picture {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
+  border: 10px;
+  object-fit: cover; /* Ensures the image fills the box */
+  object-position: center; /* Centers the image within the box */
 }
+
 
 .playlist-button {
   padding: 8px 15px; 
@@ -137,24 +142,28 @@ button:active {
 }
 
 .modal-content {
-  background: white;
+  border: 2px transparent #f768af;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
-  max-width: 500px;
-  width: 80%;
+  max-width: 400px;
+  width: 90%;
   position: relative;
+  overflow: hidden;
 }
 
 #popupContent img {
-  max-width: 400px;
-  max-height: 480px;
+  max-width: 100%; /* Ensures the image doesn’t exceed the modal width */
+  max-height: 700px; /* Ensures the image doesn’t exceed the modal height */
+  object-fit: contain; /* Maintains aspect ratio and prevents stretching */
   border-radius: 10px;
+  margin: auto; /* Centers the image */
+  display: block;
+  box-sizing: border-box;
 }
-
 #popupContent {
-  font-size: 16px;
-  color: #800080;
+  font-size: 20px;
+  color: #800080;  
 }
 #storyContent {
   display: flex;
@@ -171,19 +180,30 @@ button:active {
   margin-top: 15px;
   padding: 0 10px;
   text-align: center;
+
 }
 
 #storyContent img {
   max-width: 100%;
   height: auto;
-  max-height: 420px;
+  max-height: 530px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
 #captionArea {
-  font-size: 18px;
-  color: #721f72;
-  margin-top: 10px;
+  font-size: 18px; /* Font size for the text */
+  color: #721f72; /* Purple text color */
+  margin-top: 10px; /* Space above the element */
+  padding: 10px; /* Space inside the box */
+  background-color: rgba(250, 226, 234, 0.95); /* Light pink background */
+  border: 2px solid #fab1d5; /* Pink border */
+  border-radius: 8px; /* Rounded corners for a polished look */
+  display: inline-block; /* Size adjusts based on content */
+  max-width: 400px; /* Optional: limit width for better readability */
+  word-wrap: break-word; /* Prevents overflow by wrapping long words */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Optional: center-align the text */
 }
 .navigation-buttons {
   display: flex;
@@ -276,7 +296,7 @@ button:active {
   position: relative;
   padding: 20px;
   border-radius: 10px;
-  background: white;
+  background: rgba(252, 226, 234, 0.9);
   text-align: center;
   max-width: 500px;
   width: 80%;
