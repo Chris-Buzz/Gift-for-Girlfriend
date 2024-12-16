@@ -16,7 +16,7 @@ const poems = [
 ];
 
 const comments = [
-  "You are my favorite person","Babe you are so gorgeous ♡", "Your eyes light up my world ♡","I get lost in your eyes ♡", "You are so pretty ♡","I love you so much ♡","I love you to infinity and beyond ♡",
+  "You are my favorite person ♡","Babe you are so gorgeous ♡", "Your eyes light up my world ♡","I get lost in your eyes ♡", "You are so pretty ♡","I love you so much ♡","I love you to infinity and beyond ♡",
   "I am thinking of you right now ♡","Everytime I see you, you make me smile ♡", "You make me so happy ♡","I absolutely love cuddling with you ♡","You make me feel so safe and secure ♡","Your back rubs are heavenly ♡",
   "You are the most beautiful girl in the world ♡", "Are you a model? Well you should be ♡","You are my girl ♡", "You know who thinks your beautiful …. Me ♡", "You are the strongest person I know ♡", "I think your an angel from heaven ♡",
   "I dreamed about you last night ♡", "You are the best girlfriend in the world ♡", "I love your laugh ♡", "You are my sunshine on a cloudy day ♡", "Your smile melts my heart ♡", "You are my greatest treasure ♡", "I’m so lucky to have you in my life ♡",
