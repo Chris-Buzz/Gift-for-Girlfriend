@@ -1,12 +1,12 @@
 const images = [
-  'assets/us/us.png','assets/us/us2.png','assets/us/us3.jpg','assets/us/us4.jpg','assets/us/us5.jpg','assets/us/us6.jpg','assets/us/us7.jpg','assets/us/us8.jpg','assets/us/us9.jpg',
-  'assets/us/us10.jpg','assets/us/us11.JPG', 'assets/us/us12.jpg','assets/us/us13.jpg','assets/us/us14.jpg','assets/us/us15.jpg','assets/us/us16.jpg','assets/us/us17.jpg','assets/us/us18.jpg',
-  'assets/us/us19.jpg','assets/us/us20.jpg','assets/us/us21.jpg','assets/us/us22.jpg','assets/us/us23.jpg','assets/us/us24.jpg','assets/us/us25.jpg','assets/us/us26.jpg','assets/us/us27.jpg',
-  'assets/us/us28.jpg','assets/us/us29.jpg','assets/us/us30.jpg','assets/us/us31.jpg','assets/us/us32.jpg','assets/us/us33.jpg','assets/us/us34.jpg','assets/us/us35.jpg','assets/us/us36.jpg',
+  'assets/us/us.png','assets/us/us2.png','assets/us/us3.JPG','assets/us/us4.JPG','assets/us/us5.JPG','assets/us/us6.JPG','assets/us/us7.JPG','assets/us/us8.JPG','assets/us/us9.JPG',
+  'assets/us/us10.JPG','assets/us/us11.JPG', 'assets/us/us12.JPG','assets/us/us13.JPG','assets/us/us14.JPG','assets/us/us15.JPG','assets/us/us16.JPG','assets/us/us17.JPG','assets/us/us18.JPG',
+  'assets/us/us19.JPG','assets/us/us20.JPG','assets/us/us21.JPG','assets/us/us22.JPG','assets/us/us23.JPG','assets/us/us24.JPG','assets/us/us25.JPG','assets/us/us26.JPG','assets/us/us27.JPG',
+  'assets/us/us28.JPG','assets/us/us29.JPG','assets/us/us30.JPG','assets/us/us31.JPG','assets/us/us32.JPG','assets/us/us33.JPG','assets/us/us34.JPG','assets/us/us35.JPG','assets/us/us36.jpg',
   'assets/us/us37.jpg','assets/us/us38.jpg','assets/us/us39.jpg','assets/us/us40.jpg','assets/us/us41.jpg','assets/us/us42.jpg','assets/us/us43.jpg','assets/us/us44.jpg','assets/us/us45.jpg',
   'assets/us/us46.jpg','assets/us/us47.jpg','assets/us/us48.jpg','assets/us/us49.jpg','assets/us/us50.jpg','assets/us/us51.jpg','assets/us/us52.jpg','assets/us/us53.jpg','assets/us/us54.jpg',
   'assets/us/us55.jpg', 'assets/us/us56.jpg','assets/us/us57.jpg','assets/us/us58.jpg','assets/us/us59.jpg','assets/us/us60.jpg','assets/us/us61.jpg','assets/us/us62.jpg','assets/us/us63.jpg',
-  'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.jpg', 'assets/us/us71.jpg','assets/us/us72.JPG',
+  'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.JPG', 'assets/us/us71.JPG','assets/us/us72.JPG',
   'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.jpg',
 ];
 
