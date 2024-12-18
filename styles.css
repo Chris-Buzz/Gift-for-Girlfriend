@@ -102,6 +102,7 @@ button:active {
   border: 10px;
   object-fit: cover; 
   object-position: center; 
+  cursor: pointer;
 }
 
 
