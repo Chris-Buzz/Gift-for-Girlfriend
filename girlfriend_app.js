@@ -70,17 +70,42 @@ function closeModal() {
   document.getElementById('popupModal').style.display = 'none';
 }
 
+function showImageInModal(imageSrc) {
+  const popupContent = `
+    <div id="modal-content">
+      <img src="${imageSrc}" alt="Larger Image" style="width: 100%; height: auto;">
+      <div class="navigation-buttons">
+      </div>
+    </div>
+  `;
+  openModal(popupContent);
+}
+
+const imageElement = document.getElementById('profile');
+imageElement.src = 'assets/us/us.png';
+
+imageElement.onclick = function() {
+  showImageInModal('assets/us/us.png');
+};
+
 let lastRandomImage = null;
 function showRandomImage() {
   let randomImage;
-  do{
+  do {
     randomImage = images[Math.floor(Math.random() * images.length)];
-    console.log(randomImage)
-  }while (randomImage === lastRandomImage);
+    console.log(randomImage);
+  } while (randomImage === lastRandomImage);
   lastRandomImage = randomImage;
+
+
   const imageElement = document.getElementById('profile');
   imageElement.src = randomImage;
+
+  imageElement.onclick = function() {
+    showImageInModal(randomImage);
+  };
 }
+
 
 let lastPoem = null;
 function showRandomPoem() {
