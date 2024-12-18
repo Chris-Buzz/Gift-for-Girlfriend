@@ -40,7 +40,8 @@ const catPictures = [
   'assets/animals/pet43.jpg','assets/animals/pet44.jpg','assets/animals/pet45.jpg','assets/animals/pet46.jpg','assets/animals/pet47.jpg','assets/animals/pet48.jpg',
   'assets/animals/pet49.jpg','assets/animals/pet50.jpg','assets/animals/pet51.jpg','assets/animals/pet52.jpg','assets/animals/pet53.jpg','assets/animals/pet54.jpg',
   'assets/animals/pet55.jpg','assets/animals/pet56.jpg','assets/animals/pet57.jpg','assets/animals/pet58.jpg','assets/animals/pet59.jpg','assets/animals/pet60.jpg',
-  'assets/animals/pet61.jpg','assets/animals/pet62.jpg','assets/animals/pet51.jpg','assets/animals/pet52.jpg','assets/animals/pet47.jpg','assets/animals/pet48.jpg',
+  'assets/animals/pet61.jpg','assets/animals/pet62.jpg','assets/animals/pet63.jpg','assets/animals/pet64.jpg','assets/animals/pet65.jpg','assets/animals/pet66.jpg',
+  'assets/animals/pet67.jpg','assets/animals/pet68.jpg','assets/animals/pet69.jpg','assets/animals/pet70.jpg','assets/animals/pet71.jpg','assets/animals/pet72.jpg',
 ];
 
 const loveStoryPictures = [
