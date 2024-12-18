@@ -31,9 +31,9 @@ const comments = [
 ];
 const catPictures = [
   'assets/animals/pet1.JPEG','assets/animals/pet2.JPEG','assets/animals/pet3.JPEG','assets/animals/pet4.JPEG','assets/animals/pet5.JPEG','assets/animals/pet6.JPEG',
-  'assets/animals/pet7.jpg','assets/animals/pet8.jpg','assets/animals/pet9.jpg','assets/animals/pet10.jpg','assets/animals/pet11.jpg','assets/animals/pet12.jpg',
-  'assets/animals/pet13.jpg','assets/animals/pet14.jpg','assets/animals/pet15.jpg','assets/animals/pet16.jpg','assets/animals/pet17.jpg','assets/animals/pet18.jpg',
-  'assets/animals/pet19.jpg','assets/animals/pet20.jpg','assets/animals/pet21.jpg','assets/animals/pet22.jpg','assets/animals/pet23.jpg','assets/animals/pet24.jpg',
+  'assets/animals/pet7.JPG','assets/animals/pet8.JPG','assets/animals/pet9.JPG','assets/animals/pet10.JPG','assets/animals/pet11.JPG','assets/animals/pet12.JPG',
+  'assets/animals/pet13.JPG','assets/animals/pet14.JPG','assets/animals/pet15.JPG','assets/animals/pet16.JPG','assets/animals/pet17.JPG','assets/animals/pet18.JPG',
+  'assets/animals/pet19.JPG','assets/animals/pet20.JPG','assets/animals/pet21.JPG','assets/animals/pet22.JPG','assets/animals/pet23.jpg','assets/animals/pet24.jpg',
   'assets/animals/pet25.jpg','assets/animals/pet26.jpg','assets/animals/pet27.jpg','assets/animals/pet28.jpg','assets/animals/pet29.jpg','assets/animals/pet30.jpg',
   'assets/animals/pet31.jpg','assets/animals/pet32.jpg','assets/animals/pet33.jpg','assets/animals/pet34.jpg','assets/animals/pet35.jpg','assets/animals/pet36.jpg',
   'assets/animals/pet37.jpg','assets/animals/pet38.jpg','assets/animals/pet39.jpg','assets/animals/pet40.jpg','assets/animals/pet41.jpg','assets/animals/pet42.jpg',
