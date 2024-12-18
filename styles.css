@@ -194,15 +194,14 @@ button:active {
 }
 
 #captionArea {
-  font-size: 18px; 
+  font-size: 16px; 
   color: #800080; 
   margin-top: 10px; 
   padding: 10px; 
   background-color: rgba(250, 226, 234, 0.95); 
   border: 2px solid #fab1d5; 
   border-radius: 20px; 
-  display: inline-block; 
-  max-width: 400px; /
+  max-width: 400px; 
   word-wrap: break-word; 
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
   text-align: center; 
