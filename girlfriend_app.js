@@ -208,7 +208,7 @@ function showRandomComment() {
 }
 
 function showLetter() {
-  openModal(`<p>${letter}</p>`);
+  openModal(`<p style="font-size: 16px;">${letter}</p>`);
 }
 
 function runFlowerAnimation() {
