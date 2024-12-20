@@ -201,7 +201,7 @@ function showRandomComment() {
 }
 
 function showLetter() {
-  openModal(`<p>${'assets/Unititled document}</p>`);
+  openModal(`<p>${'assets/Unititled document.pdf'}</p>`);
 }
 
 function runFlowerAnimation() {
