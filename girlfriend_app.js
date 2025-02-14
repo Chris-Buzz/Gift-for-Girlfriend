@@ -7,7 +7,8 @@ const images = [
   'assets/us/us46.jpg','assets/us/us47.jpg','assets/us/us48.jpg','assets/us/us49.jpg','assets/us/us50.jpg','assets/us/us51.jpg','assets/us/us52.jpg','assets/us/us53.jpg','assets/us/us54.jpg',
   'assets/us/us55.jpg', 'assets/us/us56.jpg','assets/us/us57.jpg','assets/us/us58.jpg','assets/us/us59.jpg','assets/us/us60.jpg','assets/us/us61.jpg','assets/us/us62.jpg','assets/us/us63.jpg',
   'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.JPG', 'assets/us/us71.JPG','assets/us/us72.JPG',
-  'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.JPG',
+  'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.JPG','assets/us/us79.jpeg','assets/us/us80.jpeg','assets/us/us81.jpg',
+  'assets/us/us82.jpg','assets/us/us83.jpg','assets/us/us84.jpg','assets/us/us85.jpg','assets/us/us86.jpeg','assets/us/us87.jpg','assets/us/us88.jpg',
 ];
 
 const poems = [
@@ -66,7 +67,8 @@ const loveStoryPictures = [
   { src: 'assets/Story/story9.png', caption: 'October: Another month of spending everyday with you. We got to experience the Northern Lights together which was so cool an I am so happy I got to see them with you. They were not as pretty as you though. ♡' },
   { src: 'assets/Story/story10.JPG', caption: 'October: BIRTHDAY GIRL!: October 18th we celebrated your birthday. You looked so pretty and the food was so good. I was really nervous to give you your gift but I was so happy you liked it. ♡' },
   { src: 'assets/Story/story11.JPG', caption: "Novemeber: Honestly, not much happened in November, other than us getting closer and spending each day together, and going to your house for your brothers bday which I had a lot of fun doing. That's the best thing though, spending time with the most beautiful girl in the world. ♡" },
-  { src: 'assets/Story/story12.JPG', caption: "Decemeber: And now we are getting ready to spend our first Christmas together. We have grown so much as a couple and I am so proud of us. Each and everyday I only think we get stronger and more locked in together. I can't wait to spend this holdiay season with you and give you this gift. I think you will cry but time will only tell. I love you gorgeous, can't wait to make it to 1 year with you. ♡" },
+  { src: 'assets/Story/story12.JPG', caption: "Decemeber: We spent the holidays together! We went to my sisters for her Christmas party, you came over my house to celebrate the New Year's with me. You don't understand how much that meant to me. Over the holiday, somehow, someway we got even closer than we already were. I am so happy, and lucky to have someone as beautiful as you in my life. ♡" },
+  { src: 'assets/Story/story13.jpg', caption: "January: January was an eventful month for us. For starters we made it to 9 months together as a couple! We are almost at 10 months now and we are about to celebrate Valentine's Day together, which I can't wait for. In Januray we went to the city together, experienced the Summit and you gave me the greatest Christmas gift I have ever recieved. Going to a Knicks game! You and my family hav gotten so close and I can't wait to experience many more years with you. I love you so much beautiful. ♡" },
 ];
 
 const dateIdeas = [
@@ -251,7 +253,7 @@ const popupContent = `
 function updateLoveStoryModal() {
   const storyPicture = loveStoryPictures[loveStoryIndex];
   const prevButton = loveStoryIndex === 0 ? '' : `<button class="arrow-btn" onclick="prevLoveStory()">⇦ Previous</button>`;
-  const nextButton = loveStoryIndex === 11 ? '' : `<button class="arrow-btn" onclick="nextLoveStory()">⇨ Next</button>`;
+  const nextButton = loveStoryIndex === 12 ? '' : `<button class="arrow-btn" onclick="nextLoveStory()">⇨ Next</button>`;
   const popupContent = `
     <div id="storyContent" style="overflow: hidden; border-radius: 15px;">
     <img src="${storyPicture.src}" alt="Love Story" style="width: 100%; height: auto; border-radius: 15px;">
@@ -271,7 +273,7 @@ function startLoveStory() {
 }
 
 function nextLoveStory() {
-  if (loveStoryIndex != 11){
+  if (loveStoryIndex != 12){
     loveStoryIndex = (loveStoryIndex + 1) % loveStoryPictures.length; // Loop back to the start
     updateLoveStoryModal();
   }
